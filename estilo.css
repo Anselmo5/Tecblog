@@ -89,7 +89,6 @@ background: orange;
 #area-lateral{
     width: 240px;
     float: right;
-    background: orange;
 }
 
 #rodape{
@@ -127,4 +126,27 @@ h2{
     border-bottom:  1px solid #f4f4f4;
     padding-bottom:10px;
     margin-bottom:10px;
+}
+
+#conteudo-lateral{
+    background: #fff;
+    padding: 10px;
+    margin: 5px;
+}
+
+#conteudo-lateral h2{
+    color: #fff;
+    background: #f7b600;
+    padding: 5px ;
+   
+}
+
+.texto-lateral{
+    font-size:  1em;
+}
+
+.texto-lateral a{
+    font-family: 'Caveat', cursive;
+    margin-top: 5px;
+    box-shadow: 0px 0.4px 0px #CCC;
 }

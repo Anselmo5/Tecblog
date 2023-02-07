@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgba(235, 233, 233, 0.966);
+}
+
+.logo{
+    background: #f7b600;
+    height: 115px;
+}
+
+.logo h2{
+    color: #4e4e4e;
+    text-align: center;
+    font-size:2.7em;
+    padding: 10px;
+    font-family: 'Caveat', cursive;
+}
+
+span{
+    color: white;
+}
+
+.formatacaolinks{
+    text-align: center;
+    margin: 4px;
+    
+}
+
+.formatacaolinks a{
+    text-decoration: none;
+    margin: 7px;
+
+}
+
+
+a:link a:visited{
+    color:#f7b600 ;
+}
+ a:hover{
+    color: #f7b600;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+a{
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.formatacaolinks a:link{
+    color: #fff ;
+}
+.formatacaolinks a:visited{
+    color: #fff ;
+}
+
+.formatacaolinks a:hover{
+    color:orange ;
+    background: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+width: 660px;
+float: left;
+background: orange;
+}
+
+#area-lateral{
+    width: 240px;
+    float: right;
+    background: orange;
+}
+
+#rodape{
+    clear: both;
+    background:#CCC;
+    text-align: center;
+    padding: 15px;
+   
+}
+
+.post{
+    padding: 20px;
+    margin-bottom:20px ;
+    background: #fff;    
+}
+
+.post p{
+  color: black;
+}
+
+.post span{
+    color: orange;
+}
+
+img{
+    width: 620px;
+}
+
+h2{
+    color: #f7b600;
+}
+
+.data-post{
+    font-size: 0.8em;
+    border-bottom:  1px solid #f4f4f4;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
